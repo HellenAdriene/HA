@@ -1,0 +1,270 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Sora:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Sora:wght@100&display=swap');
+
+
+
+ html {
+    scroll-behavior: smooth;
+} 
+
+* {
+   margin: 0;
+   padding: 0;
+} 
+
+
+
+@media screen and (max-width: 768px) {
+    header, nav {
+        padding: 5px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .imagem img {
+        width: 125px;
+        border-radius: 200px;
+        margin-top: 28px;
+    }
+}
+
+.name {
+    font-size: 25px;
+}
+
+h1
+{margin-top: 33px;
+font-size: 24px;
+}
+
+.text {
+    padding: 1.4rem 1.1rem;
+    width: 244px;
+    margin-top: 30px;
+}
+
+#movie{
+    width: 268px;
+    height: 157px;
+}
+
+.item{
+    height: 40px;
+    width: 265px;
+}
+.icon, .email{
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+}
+
+.icon i,.email i{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 28px;
+}
+
+.icon span{
+    margin-top: 44px;
+    font-weight: 100;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+ @media( max-width: 710px) {
+    .imagem img {
+        width: 145px;
+        border-radius: 200px;
+        margin-top: 30px;
+    }
+ } 
+   
+ .text {
+    width: 20px;
+ }
+ .item {
+    width: 340px;
+}
+#movie {
+    width: 330px;
+}
+
+
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #969696;
+    background-repeat: no-repeat ; 
+} 
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    border-radius: 200px;
+    margin-top: 30px;
+} 
+   
+
+.name { 
+    font-family: 'Inconsolata', monospace;
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: #652facd2;
+ } 
+
+ .social-midia { 
+    display: flex;
+    justify-content: center;
+    margin: 10px 
+ }
+
+
+   .icon { 
+    display: inline-block; 
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 3px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+    background-color: rgba(255, 255, 255, 0.514);
+}
+    
+    .icon, .email { 
+        display: inline-block; 
+        width: 35px;
+        height: 35px;
+        border-radius: 30px;
+        margin: 3px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; 
+        background-color: rgba(255, 255, 255, 0.514)
+        ;}
+
+        .icon i, .email i { 
+            display: inline-block; 
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            font-size: 22px;
+            border-radius: 25px;
+            cursor:pointer; 
+            color: #652facd2;}
+
+    .icon i { 
+     display: inline-block; 
+     width: 35px;
+     height: 35px;
+     line-height: 35px;
+     text-align: center;
+     font-size: 22px;
+     border-radius: 25px;
+     cursor:pointer; }
+
+     .icon span a {
+        list-style: none;
+        float: right;
+        margin-right: 23px;
+        font-weight: 100;
+        font-size: 17;
+        line-height: 35px;
+        cursor: pointer;
+}
+
+    .icon:hover {
+    width: 125px;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 20px;
+}
+
+.text { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 35px;
+    width: 500px;
+    height: 150px;
+    color: #652facd2;
+    background-color: rgba(255, 255, 255, 0.514)
+}
+
+h1 {
+    color: #652facd2;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+} 
+
+
+
+.projetos {
+    margin-top: 40px;
+    flex-direction: column;
+ } 
+
+.item {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 575px;
+    height: 58px;
+    margin-bottom: 7px;
+    border-radius: 40px;
+    color: #652facd2;
+    background: #8f8f8f;
+    box-shadow: 0 5px 5px #efc7c7;
+    cursor: pointer;
+}
+
+.item:hover {
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.514)
+} 
+
+.footer {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    display: flex;
+    padding: 51px;
+    margin-top: 50px;
+    color: #652facd2;
+} 
+{} 
+
+
+
+ 
+
+   
+
+
+
+ 
